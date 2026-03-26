@@ -1,137 +1,193 @@
-2026-01-24 18:58:02.668004 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 18:58:02.669946 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 18:58:36.320626 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:36.322644 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:36.324112 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:36.343486 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:36.353044 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:36.401590 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:39.079643 - Phishing Detected: login.live.com
-2026-01-24 18:58:39.080641 - Phishing Detected: login.live.com
-2026-01-24 18:58:39.126639 - Phishing Detected: login.live.com
-2026-01-24 18:58:39.134639 - Phishing Detected: login.live.com
-2026-01-24 18:58:43.660974 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:43.662057 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:43.693059 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:58:43.698074 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:05.390587 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:05.391584 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:05.431986 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:05.593173 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:44.968667 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:44.972657 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:44.976653 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:44.981656 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:47.086362 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:47.089427 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:47.093421 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:47.129317 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:47.136383 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:47.143896 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 18:59:52.341552 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:52.342533 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:52.345533 - Phishing Detected: secure-login-update-account.com
-2026-01-24 18:59:52.346533 - Phishing Detected: secure-login-update-account.com
-2026-01-24 19:01:16.072021 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:16.074020 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:16.076019 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:16.377034 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:16.380987 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:16.385037 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:29.083073 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.085066 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.190070 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.193079 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.401074 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.433138 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.451066 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:29.467069 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:39.047993 - Phishing Detected: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:01:39.048992 - Phishing Detected: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:01:39.071992 - Phishing Detected: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:01:39.077995 - Phishing Detected: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:01:47.602732 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:47.611735 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:01:50.224171 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.225220 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.329726 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.331722 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.340034 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.345034 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.348030 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:50.462133 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:53.634906 - Phishing Detected: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:01:53.686633 - Phishing Detected: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:01:57.854242 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:57.855242 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:57.952535 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:57.966534 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:58.097535 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:58.099534 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:58.101534 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:01:58.109591 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:08.100711 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:08.102782 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:08.170525 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:08.174528 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:11.236235 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:11.269256 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:15.957837 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:15.991168 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:18.081410 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:18.083411 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:18.089425 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:18.132442 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:18.138433 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:18.144427 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:34.517858 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:02:34.519879 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:02:34.549857 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:02:34.552853 - Phishing Detected: telemetry.individual.githubcopilot.com
-2026-01-24 19:02:42.230793 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:42.243784 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:42.273765 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:02:42.325665 - Phishing Detected: mobile.events.data.microsoft.com
-2026-01-24 19:08:11.149535 - DNS: secure-login-update-account.com
-2026-01-24 19:08:11.157433 - DNS: secure-login-update-account.com
-2026-01-24 19:08:11.167439 - DNS: secure-login-update-account.com
-2026-01-24 19:08:11.176431 - DNS: secure-login-update-account.com
-2026-01-24 19:08:12.346524 - DNS: secure-login-update-account.com
-2026-01-24 19:08:12.349526 - DNS: secure-login-update-account.com
-2026-01-24 19:08:12.553831 - DNS: secure-login-update-account.com
-2026-01-24 19:08:12.558824 - DNS: secure-login-update-account.com
-2026-01-24 19:08:12.865647 - DNS: secure-login-update-account.com
-2026-01-24 19:08:12.875515 - DNS: secure-login-update-account.com
-2026-01-24 19:08:14.056218 - DNS: secure-login-update-account.com
-2026-01-24 19:08:14.060234 - DNS: secure-login-update-account.com
-2026-01-24 19:08:19.203173 - DNS: secure-login-update-account.com
-2026-01-24 19:08:19.205174 - DNS: secure-login-update-account.com
-2026-01-24 19:08:19.246703 - DNS: secure-login-update-account.com
-2026-01-24 19:08:19.280330 - DNS: secure-login-update-account.com
-2026-01-24 19:08:32.954785 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:08:32.956785 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:08:33.043884 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:08:33.072887 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:08:33.123882 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:08:33.556310 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:13:40.639868 - DNS: tas02.sls.update.microsoft.com
-2026-01-24 19:13:40.642365 - DNS: tas02.sls.update.microsoft.com
-2026-01-24 19:13:40.665294 - DNS: tas02.sls.update.microsoft.com
-2026-01-24 19:13:40.699332 - DNS: tas02.sls.update.microsoft.com
-2026-01-24 19:15:58.265923 - HTTP: ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSnxLiz3Fu1WB6n1%2FE6xWn1b0jXiQQUdIWAwGbH3zfez70pN6oDHb7tzRcCEAMKryWn7TvZWcztHNetK1w%3D
-2026-01-24 19:16:28.830742 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:16:28.833388 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:16:28.857170 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:16:28.870298 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:16:43.822000 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:16:43.832701 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:16:55.031352 - DNS: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:16:55.034592 - DNS: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:16:55.057375 - DNS: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:16:55.088792 - DNS: westus-0.in.applicationinsights.azure.com
-2026-01-24 19:17:00.123588 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:17:00.131725 - DNS: telemetry.individual.githubcopilot.com
-2026-01-24 19:21:31.465791 - DNS: login.live.com
-2026-01-24 19:21:31.468771 - DNS: login.live.com
-2026-01-24 19:21:31.532743 - DNS: login.live.com
-2026-01-24 19:21:31.536745 - DNS: login.live.com
+2026-03-26 11:15:09.583578 | HTTP | http://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl | 0.96
+2026-03-26 11:15:09.829421 | HTTP | http://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl | 0.96
+2026-03-26 11:19:42.232339 | TEST | http://login-paypal-secure.com | 1.00
+2026-03-26 11:19:42.858961 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:19:42.872942 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:19:42.911261 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:19:42.924182 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:19:57.527058 | DNS | login-paypal-secure.com. | 0.64
+2026-03-26 11:19:57.566098 | DNS | login-paypal-secure.com. | 0.64
+2026-03-26 11:19:57.606107 | DNS | login-paypal-secure.com. | 0.64
+2026-03-26 11:19:57.649104 | DNS | login-paypal-secure.com. | 0.64
+2026-03-26 11:20:21.687641 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:21.699603 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:21.714604 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:21.738607 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:27.984161 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:28.062780 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:28.172319 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:28.244946 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:30.134458 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:20:30.153462 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:20:30.171532 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:20:30.347600 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:20:30.362344 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:20:30.378349 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:20:39.157388 | DNS | hnid-dra.platform.hihonorcloud.com. | 0.59
+2026-03-26 11:20:39.175412 | DNS | hnid-dra.platform.hihonorcloud.com. | 0.59
+2026-03-26 11:20:39.192443 | DNS | hnid-dra.platform.hihonorcloud.com. | 0.59
+2026-03-26 11:20:39.212449 | DNS | hnid-dra.platform.hihonorcloud.com. | 0.59
+2026-03-26 11:20:39.614049 | DNS | hnid-dra.platform.hihonorcloud.com. | 0.59
+2026-03-26 11:20:39.626921 | DNS | hnid-dra.platform.hihonorcloud.com. | 0.59
+2026-03-26 11:20:48.105419 | DNS | _5222._https.web.whatsapp.com. | 0.68
+2026-03-26 11:20:48.196312 | DNS | _5222._https.web.whatsapp.com. | 0.68
+2026-03-26 11:20:58.161713 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:58.178710 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:58.192718 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:20:58.211715 | DNS | verify-bank-account.com. | 0.64
+2026-03-26 11:21:19.936600 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:19.980822 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:20.126464 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:20.318793 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:20.418416 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:20.554228 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:20.743655 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:20.792775 | DNS | telemetry.individual.githubcopilot.com. | 0.59
+2026-03-26 11:21:24.906824 | DNS | westus-0.in.applicationinsights.azure.com. | 0.93
+2026-03-26 11:21:24.928448 | DNS | westus-0.in.applicationinsights.azure.com. | 0.93
+2026-03-26 11:21:24.953448 | DNS | westus-0.in.applicationinsights.azure.com. | 0.93
+2026-03-26 11:21:24.971459 | DNS | westus-0.in.applicationinsights.azure.com. | 0.93
+2026-03-26 11:21:29.707910 | DNS | settings.visualstudio.microsoft.com. | 0.59
+2026-03-26 11:21:29.767332 | DNS | settings.visualstudio.microsoft.com. | 0.59
+2026-03-26 11:21:29.803336 | DNS | settings.visualstudio.microsoft.com. | 0.59
+2026-03-26 11:21:29.823339 | DNS | settings.visualstudio.microsoft.com. | 0.59
+2026-03-26 11:21:31.772633 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:21:31.789729 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:21:31.807640 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:21:31.891645 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:21:31.907645 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:21:31.924652 | DNS | mobile.events.data.microsoft.com. | 0.59
+2026-03-26 11:21:44.634442 | HTTP | http://connectivitycheck.gstatic.com/generate_204 | 0.91
+2026-03-26 11:21:51.135809 | HTTP | http://connectivitycheck.gstatic.com/generate_204 | 0.91
+2026-03-26 11:21:54.045532 | DNS | settings-win.data.microsoft.com. | 0.59
+2026-03-26 11:21:54.173975 | DNS | settings-win.data.microsoft.com. | 0.59
+2026-03-26 11:21:54.416272 | DNS | settings-win.data.microsoft.com. | 0.59
+2026-03-26 11:21:54.576948 | DNS | settings-win.data.microsoft.com. | 0.59
+[11:26:26] TEST | http://login-paypal-secure.com | 1.00
+[11:27:09] DNS | login-paypal-secure.com. | 0.69
+[11:28:08] DNS | bank-secure-login-alert.com. | 0.71
+[11:28:32] DNS | paypal-verification-alert.com. | 0.71
+[11:41:28] TEST | http://login-paypal-secure.com | 1.00
+[11:41:28] TEST | secure-update-login.com | 1.00
+[11:41:35] HTTPS | onlinecourses.nptel.ac.in | 0.95
+[11:41:37] HTTPS | o6871.ingest.sentry.io | 0.95
+[11:41:38] HTTPS | content-autofill.googleapis.com | 0.90
+[11:41:39] HTTPS | api-os.growingio.com | 0.90
+[11:41:39] HTTPS | www.google.co.in | 0.94
+[11:42:04] HTTPS | collaboration-ws.leetcode.com | 0.90
+[11:42:04] HTTPS | thepromise-event.standsapp.org | 0.90
+[11:42:25] DNS | ctldl.windowsupdate.com. | 0.95
+[11:42:25] HTTP | http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?d685594085c2f6d8 | 0.98
+[11:43:03] DNS | time.cloudflare.com. | 0.95
+[11:44:09] DNS | catalog.gamepass.com. | 0.95
+[11:44:46] DNS | hnid-dra.platform.hihonorcloud.com. | 0.95
+[11:44:46] HTTPS | hnid-dra.platform.hihonorcloud.com | 0.95
+[11:45:29] HTTP | http://239.255.255.250:1900* | 1.00
+[11:46:26] DNS | main.vscode-cdn.net. | 0.95
+[11:46:26] HTTPS | main.vscode-cdn.net | 0.90
+[11:49:56] HTTPS | a.nel.cloudflare.com | 0.95
+[11:50:06] DNS | login-paypal-secure.com. | 1.00
+[11:51:20] DNS | default.exp-tas.com. | 0.95
+[11:51:20] HTTPS | default.exp-tas.com | 0.90
+[11:51:21] HTTPS | encrypted-tbn0.gstatic.com | 0.90
+[11:53:12] DNS | ocsp2.globalsign.com. | 0.95
+[11:53:12] HTTP | http://ocsp2.globalsign.com/gscodesignsha2g3/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBRKkjBge%2BJXnExRoXTQ63uIpEYZkgQUDzrnrJSRdC2WAnODrZwuST8ZqlQCDFTwKtuTEAtrvRd2rw%3D%3D | 0.93
+[11:53:12] DNS | crl.globalsign.com. | 0.95
+[11:53:12] HTTP | http://crl.globalsign.com/gscodesignsha2g3.crl | 0.95
+[11:58:19] HTTPS | e2c71.gcp.gvt2.com | 0.94
+[11:58:28] TEST | http://login-paypal-secure.com | 1.00
+[11:58:28] TEST | secure-update-login.com | 1.00
+[11:58:57] HTTPS | oauthaccountmanager.googleapis.com | 0.60
+[11:58:57] HTTPS | update.googleapis.com | 0.60
+[11:58:57] HTTPS | android.clients.google.com | 0.95
+[11:58:57] HTTPS | accounts.google.com | 0.60
+[11:58:58] HTTPS | ogads-pa.clients6.google.com | 0.95
+[11:58:58] HTTPS | kidsmanagement-pa.googleapis.com | 0.90
+[11:58:58] HTTPS | securitydomain-pa.googleapis.com | 0.90
+[11:58:59] HTTPS | memex-pa.googleapis.com | 0.90
+[11:59:01] HTTPS | assets-proxy.anthropic.com | 0.90
+[11:59:02] HTTPS | optimizationguide-pa.googleapis.com | 0.90
+[11:59:03] HTTPS | logs.browser-intake-us5-datadoghq.com | 1.00
+[11:59:03] DNS | time.cloudflare.com. | 0.95
+[11:59:03] HTTPS | s-cdn.anthropic.com | 0.90
+[11:59:03] HTTPS | a-cdn.anthropic.com | 0.90
+[11:59:05] HTTPS | a-api.anthropic.com | 0.90
+[11:59:06] HTTPS | api-iam.intercom.io | 0.90
+[11:59:06] HTTPS | googleads.g.doubleclick.net | 0.95
+[11:59:06] HTTPS | www.google.co.in | 0.94
+[11:59:07] HTTPS | nexus-websocket-a.intercom.io | 1.00
+[11:59:09] DNS | catalog.gamepass.com. | 0.95
+[11:59:20] HTTPS | content-autofill.googleapis.com | 0.90
+[12:00:02] HTTPS | beacons.gcp.gvt2.com | 0.95
+[12:00:12] DNS | a-api.anthropic.com. | 0.95
+[12:00:19] DNS | android.clients.google.com. | 0.95
+[12:00:23] HTTP | http://239.255.255.250:1900* | 1.00
+[12:00:36] HTTPS | browser-intake-us5-datadoghq.com | 1.00
+[12:00:59] HTTPS | hnid-dra.platform.hihonorcloud.com | 0.95
+[12:01:28] DNS | main.vscode-cdn.net. | 0.95
+[12:01:28] HTTPS | main.vscode-cdn.net | 0.90
+[12:05:01] DNS | hnid-dra.platform.hihonorcloud.com. | 0.95
+[12:07:23] DNS | paypal-verification-alert.com. | 1.00
+[12:07:23] HTTPS | google-ohttp-relay-safebrowsing.fastly-edge.com | 1.00
+[12:07:30] HTTPS | pplx-next-static-public.perplexity.ai | 1.00
+[12:07:30] HTTPS | thepromise-event.standsapp.org | 0.90
+[12:07:33] HTTPS | perplexity-ai.cloudflareaccess.com | 0.90
+[12:07:34] HTTPS | browser-intake-datadoghq.com | 1.00
+[12:07:38] HTTPS | sdk-api-v1.singular.net | 1.00
+[12:07:41] DNS | storage.googleapis.com. | 0.95
+[12:07:41] HTTPS | www.google-analytics.com | 0.90
+[12:07:41] HTTPS | stats.g.doubleclick.net | 0.95
+[12:07:48] DNS | assets.giocdn.com. | 0.94
+[12:07:52] HTTPS | o6871.ingest.sentry.io | 0.95
+[12:07:58] HTTPS | api-os.growingio.com | 0.90
+[12:07:58] DNS | login.live.com. | 0.69
+[12:09:30] HTTPS | e2c8.gcp.gvt2.com | 0.94
+[12:12:33] DNS | ipv6.msftconnecttest.com. | 0.95
+[12:12:33] DNS | _hotspot._tcp.local. | 0.95
+[12:12:34] HTTP | http://ipv6.msftconnecttest.com/connecttest.txt | 0.95
+[12:12:35] DNS | www.msftconnecttest.com. | 0.95
+[12:12:35] HTTP | http://www.msftconnecttest.com/connecttest.txt | 0.95
+[12:12:40] DNS | _googlecast._tcp.local. | 0.95
+[12:15:03] DNS | ocsp.globalsign.com. | 0.95
+[12:15:03] HTTP | http://ocsp.globalsign.com/gsgccr45evcodesignca2020/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBQaCbVYh07WONuW4e63Ydlu4AlbDAQUJZ3Q%2FFkJhmPF7POxEztXHAOSNhECDA5F4dg%2FJGpCc1b%2BzQ%3D%3D | 0.93
+[12:15:06] DNS | config.edge.skype.com. | 0.95
+[12:15:06] HTTPS | config.edge.skype.com | 0.95
+[12:18:04] HTTP | http://c.pki.goog/r/r1.crl | 0.95
+[12:18:04] HTTP | http://c.pki.goog/r/gsr1.crl | 0.95
+[12:18:04] HTTP | http://c.pki.goog/r/r4.crl | 0.95
+[12:20:18] DNS | update.platform.hihonorcloud.com. | 0.95
+[12:20:18] HTTP | http://update.platform.hihonorcloud.com/hid_and_common/v2/Test.action | 0.95
+[12:20:24] HTTPS | update.platform.hihonorcloud.com | 0.95
+[12:21:17] DNS | default.exp-tas.com. | 0.95
+[12:21:17] HTTPS | default.exp-tas.com | 0.90
+[12:34:42] DNS | substrate.office.com. | 0.95
+[12:34:44] DNS | img-s-msn-com.akamaized.net. | 1.00
+[12:34:44] DNS | sb.scorecardresearch.com. | 0.95
+[12:34:44] HTTPS | img-s-msn-com.akamaized.net | 1.00
+[12:35:09] HTTPS | o27712.ingest.sentry.io | 0.98
+[12:35:09] DNS | cdn.amplitude.com. | 0.94
+[12:35:09] DNS | public.profitwell.com. | 0.95
+[12:35:09] DNS | www.googletagmanager.com. | 0.95
+[12:35:10] DNS | www.bingapis.com. | 0.94
+[12:35:12] HTTPS | sr-client-cfg.amplitude.com | 1.00
+[12:35:16] HTTPS | trc-events.taboola.com | 0.90
+[12:35:20] HTTPS | enhancv-uploaded-resumes.s3.amazonaws.com | 1.00
+[12:35:23] HTTPS | api-sr.amplitude.com | 0.90
+[12:35:25] DNS | app.enhancv.com. | 0.94
+[12:35:25] DNS | trc.taboola.com. | 0.94
+[12:35:25] DNS | scripts.clarity.ms. | 0.95
+[12:35:25] DNS | connect.facebook.net. | 0.95
+[12:35:27] DNS | assets.customer.io. | 0.95
+[12:35:38] HTTPS | sbp92st6p6.execute-api.us-east-1.amazonaws.com | 1.00
+[12:35:56] HTTPS | a.nel.cloudflare.com | 0.95
+[12:38:00] DNS | fonts.gstatic.com. | 0.94
+[12:38:35] DNS | odc.officeapps.live.com. | 0.95
+[12:38:35] HTTPS | odc.officeapps.live.com | 0.95
+[12:38:39] DNS | t-ring-s2.msedge.net. | 1.00
+[12:38:39] HTTPS | t-ring-s2.msedge.net | 1.00
+[12:38:39] DNS | spo-ring.msedge.net. | 0.95
+[12:38:39] HTTPS | spo-ring.msedge.net | 0.90
+[12:44:24] HTTPS | collaboration-ws.leetcode.com | 0.90
+[12:45:00] DNS | beacons.gcp.gvt2.com. | 0.95
+[12:47:37] DNS | login-paypal-secure.com. | 1.00
+[12:48:56] DNS | safebrowsing.google.com. | 0.95
