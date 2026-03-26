@@ -1,21 +1,18 @@
-import re
+def is_suspicious(url):
+    suspicious_keywords = [
+        "login", "verify", "bank", "secure",
+        "account", "update", "free", "bonus"
+    ]
 
-keywords = [
-    "login", "secure", "bank", "verify", "account",
-    "update", "free", "gift", "confirm", "signin"
-]
-
-def is_suspicious(text):
-    text = text.lower()
-
-    if len(text) > 35:
+    if len(url) > 50:
         return True
 
-    for word in keywords:
-        if word in text:
+    for word in suspicious_keywords:
+        if word in url.lower():
             return True
 
-    if re.match(r"\d+\.\d+\.\d+\.\d+", text):
+    import re
+    if re.search(r'(\d{1,3}\.){3}\d{1,3}', url):
         return True
 
     return False
