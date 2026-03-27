@@ -299,9 +299,9 @@ The Network-Based Phishing Detection Tool demonstrates an effective approach to 
 ## 👥 Team Details
 
 **Team Leader**
-- Ankit Saraswat
+- Ankit Saraswat -> Project Manager / Coordinator
 
 **Team Members**
-- Nancy Paul
-- Sujal Singh
-- Riya Devi
+- Nancy Paul -> Dataset & UI/UX & Dashboard Designer
+- Sujal Singh -> Documentation Lead & Research
+- Riya Devi -> Presentation & Visualization
