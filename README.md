@@ -1,6 +1,6 @@
 # 🛡️ Network-Based Phishing Detection Tool
 
-A real-time **network-based phishing detection system** that analyzes **DNS and HTTP traffic** to identify phishing attempts using **rule-based techniques and machine learning**.
+A real-time **network-based phishing detection system** that analyzes **DNS, HTTP, and HTTPS traffic** to identify phishing attempts using **rule-based techniques and machine learning**.
 
 ---
 
@@ -8,7 +8,7 @@ A real-time **network-based phishing detection system** that analyzes **DNS and 
 
 Phishing is one of the most common cyber attacks where attackers create fake or malicious websites to steal sensitive user information such as usernames, passwords, banking details, and personal data. These attacks exploit user trust and are difficult to detect because phishing domains are often newly created and short-lived.
 
-This project presents a **Network-Based Phishing Detection Tool** that captures live network traffic, analyzes DNS queries and HTTP requests, and detects phishing attempts using a combination of **heuristic rules** and a **machine learning model**.
+This project presents a **Network-Based Phishing Detection Tool** that captures live network traffic, analyzes DNS queries, HTTP requests, and HTTPS domains, and detects phishing attempts using a combination of **heuristic rules** and a **machine learning model**.
 
 ---
 
@@ -20,88 +20,142 @@ Phishing websites steal user credentials by impersonating legitimate websites. T
 
 ## 🎯 Objectives
 
-- Capture live DNS and HTTP network traffic  
+- Capture live DNS, HTTP, and HTTPS network traffic  
 - Extract domains and URLs from packets  
 - Analyze suspicious URL and domain patterns  
 - Detect phishing attempts using rule-based logic  
 - Improve detection accuracy using machine learning  
 - Generate real-time alerts and logs  
+- Visualize phishing activity using a live dashboard  
 
 ---
 
 ## ✨ Features
 
 - DNS traffic inspection  
-- HTTP GET and POST request inspection  
+- HTTP request inspection  
+- HTTPS detection using TLS SNI 🔥  
 - Rule-based phishing detection  
 - Machine Learning–based phishing detection  
+- Hybrid detection (ML + Rules)  
 - Real-time alerts on terminal  
-- Logging of detected phishing attempts  
-- Cross-platform support (Windows / Linux)  
+- SQLite database logging  
+- Live Flask dashboard with graphs 📊  
+- Noise filtering and duplicate removal  
 
 ---
 
 ## 🛠️ Technologies Used
 
 ### Programming Language
-- Python
+- Python  
 
 ### Libraries
 - Scapy  
-- Requests  
+- Flask  
+- SQLite3  
 - Scikit-learn  
 - Joblib  
+- Chart.js  
 
 ### Operating System
-- Windows / Linux
+- Windows / Linux  
 
 ---
 
 ## 🏗️ System Architecture
 
-Network Traffic
-↓
-Packet Capture (Scapy)
-↓
-DNS & HTTP Analysis
-↓
-Rule-Based Detection
-↓
-ML-Based Classification
-↓
-Alert Generation & Logging
-
+Network Traffic  
+↓  
+Packet Capture (Scapy)  
+↓  
+DNS / HTTP / HTTPS Analysis  
+↓  
+Feature Extraction  
+↓  
+Rule-Based Detection  
+↓  
+ML-Based Classification  
+↓  
+Alert Generation & Logging  
+↓  
+Dashboard Visualization  
 
 ---
 
 ## ⚙️ How the System Works
 
 ### 1. Packet Capture
-The system captures live **DNS (UDP port 53)** and **HTTP (TCP port 80)** packets using the Scapy library.
+The system captures live:
+- DNS (UDP port 53)  
+- HTTP (TCP port 80)  
+- HTTPS (TLS handshake)  
+
+---
 
 ### 2. DNS Traffic Inspection
 - Extracts domain names from DNS queries  
-- Checks for suspicious keywords, abnormal length, and IP-based domains  
-- Applies a machine learning model to classify domains  
+- Checks for suspicious keywords and patterns  
+- Applies machine learning model  
+
+---
 
 ### 3. HTTP Traffic Inspection
-- Inspects HTTP GET and POST requests  
-- Extracts host and URL path  
-- Detects phishing indicators in URLs  
+- Extracts host and path  
+- Forms complete URL  
+- Detects phishing indicators  
 
-### 4. Rule-Based Detection
-The rule-based system flags URLs/domains based on:
-- Suspicious keywords (login, verify, secure, bank, update)  
-- Long or abnormal domain names  
-- Numeric IP-based URLs  
+---
 
-### 5. Machine Learning Detection
-A **Random Forest classifier** is trained on phishing and legitimate URLs. The trained model predicts whether a domain or URL is phishing or safe in real time.
+### 4. HTTPS Detection (TLS SNI)
+- Extracts domain names from encrypted traffic  
+- Enables phishing detection even for HTTPS websites  
 
-### 6. Alert and Logging
-When phishing activity is detected:
-- Alerts are displayed on the terminal  
-- Details are stored in a log file for future analysis  
+---
+
+### 5. Rule-Based Detection
+Flags URLs based on:
+- Suspicious keywords (login, verify, bank, secure)  
+- Long or abnormal domains  
+- IP-based URLs  
+
+---
+
+### 6. Machine Learning Detection
+- Model: **Random Forest Classifier**  
+- Input: URL features  
+- Output:
+  - `1` → Phishing  
+  - `0` → Legitimate  
+- Provides confidence score  
+
+---
+
+### 7. Hybrid Detection
+Combines:
+- Rule-based detection  
+- ML prediction  
+
+Improves accuracy and reduces false positives.
+
+---
+
+### 8. Alert and Logging
+When phishing is detected:
+- Alert shown in terminal  
+- Stored in:
+  - Log file  
+  - SQLite database  
+
+---
+
+### 9. Dashboard Visualization
+- Built using Flask  
+- Displays:
+  - Live phishing logs  
+  - Confidence scores  
+  - Graph analytics  
+- Auto-refresh every few seconds  
 
 ---
 
@@ -112,12 +166,13 @@ When phishing activity is detected:
 - Labels:
   - `1` → Phishing  
   - `0` → Legitimate  
-- Model is trained once and saved as `.pkl` files  
+- Model saved as `.pkl` file  
 - Loaded dynamically during execution  
 
 ---
 
 ## 📂 Project Structure
+
 ```
 MiniProjectCyber/
 │
@@ -126,19 +181,26 @@ MiniProjectCyber/
 │   ├── packet_sniffer.py
 │   ├── url_analyzer.py
 │   ├── http_analyzer.py
-│   ├── ml_model.py
-│   └── ml_detector.py
+│   ├── ml_detector.py
+│   ├── feature_extractor.py
+│   └── database.py
+│
+├── templates/
+│   └── dashboard.html
 │
 ├── doc/
-│   ├── synopsis.md
 │   ├── problem_statement.md
 │   └── methodology.md
 │
 ├── logs/
 │   └── detected_phishing.log
 │
-├── phishing_model.pkl
-├── vectorizer.pkl
+├── models/
+│   └── phishing_model.pkl
+│
+├── app.py
+├── dataset.csv
+├── phishing.db
 ├── requirements.txt
 └── README.md
 ```
@@ -166,7 +228,8 @@ pip install -r requirements.txt
 
 ### Step 1: Train the ML Model (One-Time)
 ```bash
-python src/ml_model.py
+cd src
+python model_training.py
 ```
 
 ### Step 2: Start Phishing Detection
@@ -174,14 +237,27 @@ python src/ml_model.py
 python src/phishing_detector.py
 ```
 
+### Step 3: Run Dashboard
+```bash
+python app.py
+```
+
+### Step 4: Open Dashboard
+```bash
+http://127.0.0.1:5000
+```
+
 ---
 
 ## 🧪 Sample Output
 ```
-Starting Network-Based Phishing Detection Tool...
-Monitoring DNS and HTTP traffic...
-[DNS ALERT] Phishing Domain: secure-login-update.com
-[HTTP ALERT] Phishing URL: verify-bank-account.net/login
+🛡️ Phishing Detection Started...
+[CHECK] login-paypal-secure.com → 0.92
+
+🚨 PHISHING ALERT 🚨
+URL       : login-paypal-secure.com
+Source    : DNS
+Confidence: 0.92
 ```
 
 ---
@@ -194,15 +270,15 @@ logs/detected_phishing.log
 
 **Example:**
 ```
-2026-01-24 11:30:22 - DNS: secure-login-update.com
+[11:25:10] DNS | login-paypal-secure.com | 0.91
 ```
 
 ---
 
 ## ⚠️ Limitations
-- May generate false positives
-- Limited dataset for ML training
-- HTTPS payload is not deeply inspected
+- Possible false positives
+- Limited dataset for ML
+- HTTPS payload not fully decrypted
 
 ---
 
