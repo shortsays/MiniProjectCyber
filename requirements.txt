@@ -1,4 +1,11 @@
-scapy
-requests
+flask
 scikit-learn
+pandas
+numpy
 joblib
+requests
+beautifulsoup4
+dnspython
+tldextract
+python-whois
+urllib3
